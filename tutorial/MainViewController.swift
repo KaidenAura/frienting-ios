@@ -11,6 +11,7 @@ import UIKit
 class MainViewController: UIViewController, UIPageViewControllerDataSource {
 
     var mainPageImages : NSArray!
+    //new code
     var pageViewController : UIPageViewController!
     
     override func viewDidLoad() {

@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		766CD27520F380F3001E00D7 /* tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		766CD27520F380F3001E00D7 /* Frienting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frienting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766CD27820F380F3001E00D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		766CD27A20F380F3001E00D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		766CD27D20F380F3001E00D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		766CD27620F380F3001E00D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				766CD27520F380F3001E00D7 /* tutorial.app */,
+				766CD27520F380F3001E00D7 /* Frienting.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		766CD27420F380F3001E00D7 /* tutorial */ = {
+		766CD27420F380F3001E00D7 /* Frienting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 766CD28720F380F4001E00D7 /* Build configuration list for PBXNativeTarget "tutorial" */;
+			buildConfigurationList = 766CD28720F380F4001E00D7 /* Build configuration list for PBXNativeTarget "Frienting" */;
 			buildPhases = (
 				766CD27120F380F3001E00D7 /* Sources */,
 				766CD27220F380F3001E00D7 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = tutorial;
+			name = Frienting;
 			productName = tutorial;
-			productReference = 766CD27520F380F3001E00D7 /* tutorial.app */;
+			productReference = 766CD27520F380F3001E00D7 /* Frienting.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 766CD27020F380F3001E00D7 /* Build configuration list for PBXProject "tutorial" */;
+			buildConfigurationList = 766CD27020F380F3001E00D7 /* Build configuration list for PBXProject "Frienting" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				766CD27420F380F3001E00D7 /* tutorial */,
+				766CD27420F380F3001E00D7 /* Frienting */,
 			);
 		};
 /* End PBXProject section */
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		766CD27020F380F3001E00D7 /* Build configuration list for PBXProject "tutorial" */ = {
+		766CD27020F380F3001E00D7 /* Build configuration list for PBXProject "Frienting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				766CD28520F380F4001E00D7 /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		766CD28720F380F4001E00D7 /* Build configuration list for PBXNativeTarget "tutorial" */ = {
+		766CD28720F380F4001E00D7 /* Build configuration list for PBXNativeTarget "Frienting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				766CD28820F380F4001E00D7 /* Debug */,
