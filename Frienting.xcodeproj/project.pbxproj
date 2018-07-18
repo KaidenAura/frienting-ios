@@ -48,7 +48,7 @@
 		766CD26C20F380F3001E00D7 = {
 			isa = PBXGroup;
 			children = (
-				766CD27720F380F3001E00D7 /* tutorial */,
+				766CD27720F380F3001E00D7 /* Frienting */,
 				766CD27620F380F3001E00D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		766CD27720F380F3001E00D7 /* tutorial */ = {
+		766CD27720F380F3001E00D7 /* Frienting */ = {
 			isa = PBXGroup;
 			children = (
 				766CD27820F380F3001E00D7 /* AppDelegate.swift */,
@@ -76,7 +76,7 @@
 				766CD2A020F9E6E2001E00D7 /* mainImages.xcassets */,
 				766CD2A220F9EE12001E00D7 /* MainContentViewController.swift */,
 			);
-			path = tutorial;
+			path = Frienting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
