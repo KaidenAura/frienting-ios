@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPageViewControllerDataSource {
+class TutorialPVController: UIViewController, UIPageViewControllerDataSource {
     
     var tutorialPageImages : NSArray!
-    var pageViewController : ㅇ!
+    var pageViewController : UIPageViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         tutorialPageImages = NSArray(objects : "img01", "img02", "img03", "img04")
         
         //MyPageViewController를 UIPageViewController로 변환해서 pageViewController로 설정
@@ -28,9 +29,7 @@ class ViewController: UIViewController, UIPageViewControllerDataSource {
         let initialContentViewController = self.pageTutorialAtIndex(index: 0) as TutorialContentViewController
         
         let viewControllers = NSArray(object: initialContentViewController)
-        for vs in viewControllers {
-            print(vs)
-        }
+        
         //pageViewController에 viewController를 추가함.
         //viewController는 TutorialContentViewController의 뷰들이 저장되어있다?
         self.pageViewController.setViewControllers(viewControllers as? [UIViewController], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)

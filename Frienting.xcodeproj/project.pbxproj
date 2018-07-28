@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		766CD27920F380F3001E00D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CD27820F380F3001E00D7 /* AppDelegate.swift */; };
-		766CD27B20F380F3001E00D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CD27A20F380F3001E00D7 /* ViewController.swift */; };
 		766CD27E20F380F3001E00D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766CD27C20F380F3001E00D7 /* Main.storyboard */; };
 		766CD28320F380F4001E00D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766CD28120F380F4001E00D7 /* LaunchScreen.storyboard */; };
 		766CD29520F38D24001E00D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766CD29420F38D24001E00D7 /* Assets.xcassets */; };
 		766CD29720F4DDE0001E00D7 /* TheNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CD29620F4DDE0001E00D7 /* TheNextViewController.swift */; };
 		766CD29920F4E97E001E00D7 /* TutorialContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CD29820F4E97E001E00D7 /* TutorialContentViewController.swift */; };
-		766CD29B20F9DCF6001E00D7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CD29A20F9DCF6001E00D7 /* MainViewController.swift */; };
 		766CD2A120F9E6E2001E00D7 /* mainImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766CD2A020F9E6E2001E00D7 /* mainImages.xcassets */; };
 		766CD2A320F9EE12001E00D7 /* MainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CD2A220F9EE12001E00D7 /* MainContentViewController.swift */; };
+		76C03452210C52A7002C27E1 /* initialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C03451210C52A7002C27E1 /* initialViewController.swift */; };
+		76C03454210C54AF002C27E1 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C03453210C54AF002C27E1 /* TutorialPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		766CD27520F380F3001E00D7 /* Frienting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frienting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766CD27820F380F3001E00D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		766CD27A20F380F3001E00D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		766CD27D20F380F3001E00D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		766CD28220F380F4001E00D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		766CD28420F380F4001E00D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		766CD29420F38D24001E00D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766CD29620F4DDE0001E00D7 /* TheNextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNextViewController.swift; sourceTree = "<group>"; };
 		766CD29820F4E97E001E00D7 /* TutorialContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialContentViewController.swift; sourceTree = "<group>"; };
-		766CD29A20F9DCF6001E00D7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		766CD2A020F9E6E2001E00D7 /* mainImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = mainImages.xcassets; sourceTree = "<group>"; };
 		766CD2A220F9EE12001E00D7 /* MainContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentViewController.swift; sourceTree = "<group>"; };
+		76C03451210C52A7002C27E1 /* initialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialViewController.swift; sourceTree = "<group>"; };
+		76C03453210C54AF002C27E1 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,15 +64,15 @@
 		766CD27720F380F3001E00D7 /* Frienting */ = {
 			isa = PBXGroup;
 			children = (
+				76C03451210C52A7002C27E1 /* initialViewController.swift */,
+				76C03453210C54AF002C27E1 /* TutorialPageViewController.swift */,
+				766CD29820F4E97E001E00D7 /* TutorialContentViewController.swift */,
 				766CD27820F380F3001E00D7 /* AppDelegate.swift */,
-				766CD27A20F380F3001E00D7 /* ViewController.swift */,
 				766CD27C20F380F3001E00D7 /* Main.storyboard */,
 				766CD29420F38D24001E00D7 /* Assets.xcassets */,
 				766CD28120F380F4001E00D7 /* LaunchScreen.storyboard */,
 				766CD28420F380F4001E00D7 /* Info.plist */,
 				766CD29620F4DDE0001E00D7 /* TheNextViewController.swift */,
-				766CD29820F4E97E001E00D7 /* TutorialContentViewController.swift */,
-				766CD29A20F9DCF6001E00D7 /* MainViewController.swift */,
 				766CD2A020F9E6E2001E00D7 /* mainImages.xcassets */,
 				766CD2A220F9EE12001E00D7 /* MainContentViewController.swift */,
 			);
@@ -152,11 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				766CD29920F4E97E001E00D7 /* TutorialContentViewController.swift in Sources */,
+				76C03452210C52A7002C27E1 /* initialViewController.swift in Sources */,
 				766CD2A320F9EE12001E00D7 /* MainContentViewController.swift in Sources */,
-				766CD27B20F380F3001E00D7 /* ViewController.swift in Sources */,
 				766CD27920F380F3001E00D7 /* AppDelegate.swift in Sources */,
 				766CD29720F4DDE0001E00D7 /* TheNextViewController.swift in Sources */,
-				766CD29B20F9DCF6001E00D7 /* MainViewController.swift in Sources */,
+				76C03454210C54AF002C27E1 /* TutorialPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,11 +301,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tutorial/Info.plist;
+				INFOPLIST_FILE = Frienting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = hi.tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -318,11 +320,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tutorial/Info.plist;
+				INFOPLIST_FILE = Frienting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = hi.tutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

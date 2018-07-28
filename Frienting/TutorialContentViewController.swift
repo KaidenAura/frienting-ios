@@ -11,16 +11,16 @@ import UIKit
 class TutorialContentViewController: UIViewController {
 
     @IBOutlet weak var myImageView: UIImageView!
+    @IBOutlet weak var pageControl: UIPageControl!
     
     var imageFileName : String!
-    var pageIndex : Int!
-    
-    
+    var pageIndex = 0
+
     override func viewDidLoad() {
         super.viewDidLoad()
         myImageView.image = UIImage(named : imageFileName)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

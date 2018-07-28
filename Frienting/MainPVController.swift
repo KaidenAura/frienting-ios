@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainViewController: UIViewController, UIPageViewControllerDataSource {
+class MainPVController: UIViewController, UIPageViewControllerDataSource {
 
     var mainPageImages : NSArray!
     //new code
