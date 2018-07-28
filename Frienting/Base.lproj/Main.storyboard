@@ -11,14 +11,12 @@
     </dependencies>
     <scenes>
         <!--Tutorial Page View Controller-->
-        <scene sceneID="7Yy-Nj-4F4">
+        <scene sceneID="M0m-aM-P8W">
             <objects>
-                <pageViewController storyboardIdentifier="TutorialPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="hBq-Om-L4y" customClass="TutorialPageViewController" customModule="Frienting" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
-                </pageViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aTg-wB-zd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pageViewController storyboardIdentifier="TutorialPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="H3b-Ai-GKa" customClass="TutorialPageViewController" customModule="Frienting" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yQ1-iC-L4e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1423" y="133"/>
+            <point key="canvasLocation" x="-1414" y="130"/>
         </scene>
         <!--Tutorial Content View Controller-->
         <scene sceneID="7kI-tI-RAx">
@@ -28,16 +26,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="944-o7-v3A">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="944-o7-v3A">
+                                <rect key="frame" x="0.0" y="40" width="375" height="627"/>
                             </imageView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="WN5-1u-NWE">
-                                <rect key="frame" x="168" y="610" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="WN5-1u-NWE">
+                                <rect key="frame" x="160" y="610" width="55" height="37"/>
+                                <color key="pageIndicatorTintColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOK-Bi-1nB">
+                                <rect key="frame" x="318" y="61" width="39" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="skipButton:" destination="Qh0-6C-4zg" eventType="touchUpInside" id="7ur-XV-g6m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="944-o7-v3A" firstAttribute="top" secondItem="Fgc-B2-Kuj" secondAttribute="top" constant="20" id="Mny-dE-5q5"/>
+                            <constraint firstItem="WN5-1u-NWE" firstAttribute="centerX" secondItem="nYc-gk-YwE" secondAttribute="centerX" id="ZCh-nb-Jgu"/>
+                            <constraint firstItem="944-o7-v3A" firstAttribute="trailing" secondItem="Fgc-B2-Kuj" secondAttribute="trailing" id="gGl-ee-1Yv"/>
+                            <constraint firstItem="944-o7-v3A" firstAttribute="leading" secondItem="Fgc-B2-Kuj" secondAttribute="leading" id="lOb-II-IG9"/>
+                            <constraint firstItem="Fgc-B2-Kuj" firstAttribute="bottom" secondItem="WN5-1u-NWE" secondAttribute="bottom" constant="20" id="yB5-G1-D8D"/>
+                            <constraint firstItem="944-o7-v3A" firstAttribute="bottom" secondItem="Fgc-B2-Kuj" secondAttribute="bottom" id="zLq-dc-7Dm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Fgc-B2-Kuj"/>
                     </view>
                     <connections>
@@ -47,7 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zT-9w-Tl1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-730" y="133"/>
+            <point key="canvasLocation" x="-730.39999999999998" y="132.68365817091455"/>
         </scene>
         <!--Item-->
         <scene sceneID="N9s-JP-yG5">
@@ -119,6 +136,7 @@
         <scene sceneID="7jj-Ky-dG8">
             <objects>
                 <tabBarController id="NNC-8T-gTw" customClass="initialViewController" customModule="Frienting" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="St3-kc-2b1"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4fg-b8-tZa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

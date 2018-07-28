@@ -19,16 +19,17 @@ class initialViewController: UITabBarController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-         displayTutorial()
+        if (isdisplayTutorial){
+            displayTutorial()
+        }
     }
     
     func displayTutorial(){
         if (isdisplayTutorial){
             if let pageViewController = storyboard?.instantiateViewController(withIdentifier : "TutorialPageViewController"){
-                //print("present!")
                 self.present(pageViewController, animated : true, completion : nil)
-                //print("present!")
-            }
+             }
+        isdisplayTutorial = false
         }
     }
     

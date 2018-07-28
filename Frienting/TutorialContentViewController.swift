@@ -18,7 +18,9 @@ class TutorialContentViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        pageControl.isHidden = true
         myImageView.image = UIImage(named : imageFileName)
+        pageControl.currentPage = pageIndex
     }
     
     override func didReceiveMemoryWarning() {
@@ -26,6 +28,8 @@ class TutorialContentViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func skipButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 
 }
