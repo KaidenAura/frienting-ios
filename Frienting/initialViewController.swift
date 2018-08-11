@@ -10,26 +10,24 @@ import UIKit
 
 class initialViewController: UITabBarController {
 
-    var isdisplayTutorial = true
+    var needTutorial = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-        // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if (isdisplayTutorial){
+        if (needTutorial){
             displayTutorial()
         }
     }
     
     func displayTutorial(){
-        if (isdisplayTutorial){
+        if (needTutorial){
             if let pageViewController = storyboard?.instantiateViewController(withIdentifier : "TutorialPageViewController"){
                 self.present(pageViewController, animated : true, completion : nil)
              }
-        isdisplayTutorial = false
+        needTutorial = false
         }
     }
     

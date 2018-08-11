@@ -31,7 +31,7 @@ class TutorialPageViewController: UIPageViewController, UIPageViewControllerDele
         if let startTutorialVC = self.viewControllerAtIndex(index: 0){
         print(startTutorialVC.imageFileName)
         print(startTutorialVC.pageIndex)
-           setViewControllers([startTutorialVC], direction: .forward, animated: true, completion: nil)
+        setViewControllers( [startTutorialVC] , direction: .forward, animated: true, completion: nil)
         }
         self.delegate = self
         configurePageControl()
@@ -62,13 +62,11 @@ class TutorialPageViewController: UIPageViewController, UIPageViewControllerDele
             return nil
         }
         if let tutorialContentViewController = storyboard?.instantiateViewController(withIdentifier : "TutorialContentViewController") as? TutorialContentViewController{
-            //print("did!")
-            //print(pageImages[index])
-    
+            
             tutorialContentViewController.imageFileName = pageImages[index]
             tutorialContentViewController.pageIndex = index
-            print(index)
-
+            //print(index, pageControl.currentPage)
+            
             return tutorialContentViewController
         }
         return nil
@@ -79,7 +77,7 @@ class TutorialPageViewController: UIPageViewController, UIPageViewControllerDele
 extension TutorialPageViewController : UIPageViewControllerDataSource{
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         var index = (viewController as! TutorialContentViewController).pageIndex
-        index = index-1
+        index = index - 1
         pageControl.currentPage = pageControl.currentPage - 1
         return self.viewControllerAtIndex(index: index)
     }

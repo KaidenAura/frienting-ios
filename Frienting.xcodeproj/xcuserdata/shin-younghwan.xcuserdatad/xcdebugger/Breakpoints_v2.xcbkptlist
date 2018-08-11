@@ -10,13 +10,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Frienting/TutorialPageViewController.swift"
-            timestampString = "554474454.072889"
+            timestampString = "555675550.2237689"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
             endingLineNumber = "93"
             landmarkName = "TutorialPageViewController"
             landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Frienting/TutorialPageViewController.swift"
+            timestampString = "555675550.2244999"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "pageViewController(_:viewControllerAfter:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
