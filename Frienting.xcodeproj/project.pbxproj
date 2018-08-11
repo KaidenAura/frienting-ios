@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760AEFB2211F0716003F8B14 /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFB1211F0716003F8B14 /* CustomSearchController.swift */; };
 		766CD27920F380F3001E00D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CD27820F380F3001E00D7 /* AppDelegate.swift */; };
 		766CD27E20F380F3001E00D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766CD27C20F380F3001E00D7 /* Main.storyboard */; };
 		766CD28320F380F4001E00D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766CD28120F380F4001E00D7 /* LaunchScreen.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		760AEFB1211F0716003F8B14 /* CustomSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
 		766CD27520F380F3001E00D7 /* Frienting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frienting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766CD27820F380F3001E00D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		766CD27D20F380F3001E00D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				766CD29620F4DDE0001E00D7 /* TheNextViewController.swift */,
 				766CD2A020F9E6E2001E00D7 /* mainImages.xcassets */,
 				766CD2A220F9EE12001E00D7 /* MainContentViewController.swift */,
+				760AEFB1211F0716003F8B14 /* CustomSearchController.swift */,
 			);
 			path = Frienting;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				766CD29920F4E97E001E00D7 /* TutorialContentViewController.swift in Sources */,
 				76C03452210C52A7002C27E1 /* initialViewController.swift in Sources */,
+				760AEFB2211F0716003F8B14 /* CustomSearchController.swift in Sources */,
 				766CD2A320F9EE12001E00D7 /* MainContentViewController.swift in Sources */,
 				766CD27920F380F3001E00D7 /* AppDelegate.swift in Sources */,
 				766CD29720F4DDE0001E00D7 /* TheNextViewController.swift in Sources */,
